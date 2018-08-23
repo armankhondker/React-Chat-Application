@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@pusher/chatkit": "^0.7.12",
     "react": "16.0.0",
-    "react-dom": "16.0.0",
-    "@pusher/chatkit": "0.7.12"
+    "react-dom": "16.0.0"
   },
   "devDependencies": {
     "webpack": "^2.0",
@@ -13,7 +13,8 @@
     "babel-loader": "^7.0",
     "babel-preset-env": "*",
     "babel-preset-react": "*"
-  },  "scripts": {
+  },
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
